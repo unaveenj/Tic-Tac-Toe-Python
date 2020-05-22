@@ -20,7 +20,7 @@ def decide_first():  # decide who start first
     return player
 
 
-def choose_marker(p1_name,p2_name):
+def choose_marker(p1_name,p2_name): #let players choose their preferred marker
     first = decide_first()
     choice =' '
     while(choice !='O' or choice!= 'X'):
